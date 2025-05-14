@@ -52,10 +52,12 @@ dengan teknik **Router-on-a-Stick** pada perangkat Cisco.
   switchport access vlan 10
 
 🔸 Trunk Antar Switch
+
   int fa0/3
   switchport mode trunk
 
 🔸 Router-On-a-stick
+
   interface fa0/0
   no shutdown
   
